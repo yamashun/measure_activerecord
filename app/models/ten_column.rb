@@ -1,0 +1,2 @@
+class TenColumn < ApplicationRecord
+end
