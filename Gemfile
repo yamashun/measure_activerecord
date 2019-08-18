@@ -30,6 +30,8 @@ group :development, :test do
   gem 'faker'
   gem 'stackprof'
   gem 'benchmark-ips'
+  gem 'pry-rails'
+  gem 'pry-byebug'
 end
 
 group :development do
