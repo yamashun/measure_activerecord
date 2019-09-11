@@ -32,6 +32,7 @@ group :development, :test do
   gem 'benchmark-ips'
   gem 'pry-rails'
   gem 'pry-byebug'
+  gem 'rack-lineprof'
 end
 
 group :development do
