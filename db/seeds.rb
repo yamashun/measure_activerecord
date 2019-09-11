@@ -14,3 +14,12 @@
   end
   TenColumn.create!(hash)
 end
+
+1000.times do |n|
+  sushi = Faker::Food.sushi
+  hash = {}
+  30.times do |i|
+    hash["item#{i+1}".to_sym] = "#{sushi}#{i+1}"
+  end
+  ThirtyColumn.create!(hash)
+end

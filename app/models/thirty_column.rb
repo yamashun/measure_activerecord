@@ -1,0 +1,2 @@
+class ThirtyColumn < ApplicationRecord
+end
